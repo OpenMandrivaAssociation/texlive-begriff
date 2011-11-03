@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/begriff
+# catalog-date 2007-01-29 23:57:18 +0100
+# catalog-license gpl
+# catalog-version 1.6
 Name:		texlive-begriff
 Version:	1.6
 Release:	1
@@ -40,6 +46,7 @@ Begriffschrift.
 %doc %{_texmfdistdir}/doc/latex/begriff/README
 %doc %{_texmfdistdir}/doc/latex/begriff/examples.pdf
 %doc %{_texmfdistdir}/doc/latex/begriff/examples.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ Begriffschrift.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
