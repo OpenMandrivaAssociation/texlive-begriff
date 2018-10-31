@@ -6,7 +6,7 @@
 # catalog-version 1.6
 Name:		texlive-begriff
 Version:	1.6
-Release:	10
+Release:	11
 Summary:	Typeset Begriffschrift
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/begriff
