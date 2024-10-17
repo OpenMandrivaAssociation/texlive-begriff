@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typeset Begriffschrift
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/begriff
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/begriff
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/begriff.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/begriff.doc.r%{version}.tar.xz
